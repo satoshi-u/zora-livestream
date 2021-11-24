@@ -1,0 +1,39 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+#graph
+generated
+build
+abis
+
+# dependencies
+*node_modules
+zoraui/.pnp
+zoraui/.pnp.js
+
+# testing
+zoraui/coverage
+
+# next.js
+zoraui/.next/
+zoraui/out/
+
+# production
+zoraui/build
+
+# misc
+*.DS_Store
+*.pem
+
+# debug
+zoraui/npm-debug.log*
+zoraui/yarn-debug.log*
+zoraui/yarn-error.log*
+
+# local env files
+zoraui/.env.local
+zoraui/.env.development.local
+zoraui/.env.test.local
+.env.production.local
+
+# vercel
+zoraui/.vercel
